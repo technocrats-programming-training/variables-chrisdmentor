@@ -10,14 +10,18 @@ public class Main {
             ex.printStackTrace();
         }
         
-
         // Print out the following string: "Hello, I am <firstName> <lastName>, and I am <age> years old"
+        System.out.println("Hello, I am " + firstName + " " + lastName + ", and I am " + age + " years old\n");
 
         // Print out whether age is even
+        int isEven = age % 2;
+        System.out.println(isEven == 0);
 
         // Print out whether firstName equals lastName
+        System.out.println(firstName == lastName);
 
         // Print out whether age is greater than 0
+        System.out.println(age >= 0);
 
     }
 }
